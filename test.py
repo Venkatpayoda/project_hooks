@@ -1,7 +1,6 @@
-"""
+'''
 testcases
-Extra doc string
-"""
+'''
 import unittest
 
 class TestStringMethods(unittest.TestCase):
