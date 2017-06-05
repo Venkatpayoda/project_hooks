@@ -12,5 +12,8 @@ class TestStringMethods(unittest.TestCase):
         self.assertTrue('FOO'.isupper())
         self.assertFalse('Foo'.isupper())
 
+    def test_add(self):
+	self.assertTrue(5,5)
+
 if __name__ == '__main__':
     unittest.main()
