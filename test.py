@@ -13,7 +13,7 @@ class TestStringMethods(unittest.TestCase):
         self.assertFalse('Foo'.isupper())
 
     def test_add(self):
-	self.assertTrue(5,10)
+	self.assertEqual(5,10)
 
 if __name__ == '__main__':
     unittest.main()
